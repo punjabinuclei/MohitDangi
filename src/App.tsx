@@ -6,6 +6,7 @@ import Navbar from "./components/HomePage/Navbar/Navbar"
 import Metrics from "./components/HomePage/MetricsBlock/MetricsBlock.tsx"
 import Services from "./components/HomePage/Services/Services.tsx"
 import RecentWorks from "./components/HomePage/RecentWorks/RecentWorks.tsx"
+import Footer from "./components/HomePage/Footer/Footer.tsx"
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Metrics />
       <Services />
       <RecentWorks />
+      <Footer />
     </>
   )
 }
