@@ -4,6 +4,7 @@ import Awards from "./components/HomePage/Awards/Awards"
 import Hero from "./components/HomePage/Hero/Hero"
 import Navbar from "./components/HomePage/Navbar/Navbar"
 import Metrics from "./components/HomePage/MetricsBlock/MetricsBlock.tsx"
+import Services from "./components/HomePage/Services/Services.tsx"
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Hero />
       <Awards />
       <About />
-      <Metrics/>
+      <Metrics />
+      <Services />
     </>
   )
 }
