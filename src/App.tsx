@@ -1,24 +1,29 @@
-// import { Award } from "lucide-react"
-import About from "./components/HomePage/About/About"
-import Awards from "./components/HomePage/Awards/Awards"
-import Hero from "./components/HomePage/Hero/Hero"
-import Navbar from "./components/HomePage/Navbar/Navbar"
-import Metrics from "./components/HomePage/MetricsBlock/MetricsBlock.tsx"
-import Services from "./components/HomePage/Services/Services.tsx"
-import RecentWorks from "./components/HomePage/RecentWorks/RecentWorks.tsx"
-import Footer from "./components/HomePage/Footer/Footer.tsx"
+import { Routes, Route, useLocation } from 'react-router-dom'
+import Navbar from "./components/Common/Navbar/Navbar.tsx"
+import HomePage from './components/HomePage/HomePage.tsx';
+import OurWork from './components/OurWork/OurWork.tsx';
+import Services from './components/Services/Services.tsx';
+import About from './components/About/About.tsx';
+
+import { AnimatePresence } from 'framer-motion';
+
 
 const App = () => {
+  const location = useLocation();
+
+
   return (
     <>
       <Navbar />
-      <Hero />
-      <Awards />
-      <About />
-      <Metrics />
-      <Services />
-      <RecentWorks />
-      <Footer />
+      <AnimatePresence mode='wait'>
+        <Routes location={location} key={location.pathname}>
+          <Route path='/HomePage' element={<HomePage />} />
+          <Route path='/OurWork' element={<OurWork />} />
+          <Route path='/Services' element={<Services />} />
+          <Route path='/About' element={<About />} />
+        </Routes>
+      </AnimatePresence>
+
     </>
   )
 }

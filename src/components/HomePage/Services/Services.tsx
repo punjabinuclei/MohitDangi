@@ -16,7 +16,7 @@ const Services = () => {
                             <img src={ServiceImg1} />
                         </div>
                         <div>
-                            <h1 className="text-[#2C2C2C] text-[2.5rem] leading-[3rem]">Architectural &<br /> Interior design</h1>
+                            <h1 className="text-[#2C2C2C] text-[2.3rem] leading-[3rem]">Architectural &<br /> Interior design</h1>
                         </div>
                         <div>
                             <p className="font2 tracking-wider text-neutral-600 py-6 ">Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies.</p>
@@ -28,7 +28,7 @@ const Services = () => {
                             <img src={ServiceImg2} />
                         </div>
                         <div>
-                            <h1 className="text-[#2C2C2C] text-[2.5rem] leading-[3rem]">Building <br /> Renovation</h1>
+                            <h1 className="text-[#2C2C2C] text-[2.3rem] leading-[3rem]">Building <br /> Renovation</h1>
                         </div>
                         <div>
                             <p className="font2 tracking-wider text-neutral-600 py-6">Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies.</p>
@@ -40,7 +40,7 @@ const Services = () => {
                             <img src={ServiceImg3} />
                         </div>
                         <div>
-                            <h1 className="text-[#2C2C2C] text-[2.5rem] leading-[3rem]">Construciton<br /> Management</h1>
+                            <h1 className="text-[#2C2C2C] text-[2.3rem] leading-[3rem]">Construciton<br /> Management</h1>
                         </div>
                         <div>
                             <p className="font2 tracking-wider text-neutral-600 py-6">Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies.</p>
