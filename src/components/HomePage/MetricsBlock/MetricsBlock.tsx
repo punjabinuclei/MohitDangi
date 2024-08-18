@@ -8,18 +8,18 @@ const Metrics = () => {
                 <div className="flex">
                     <h1 className="text-[4.4rem]">100%</h1>
                     
-                    <p className="self-center pl-6 uppercase text-[1.2rem]">Client <br /> Satisfaction</p>
+                    <p className="self-center pl-6 uppercase text-[1.1rem] font2">Client <br /> Satisfaction</p>
                 </div>
 
                 <div className="flex">
                     <h1 className="text-[4.4rem]">250</h1>
-                    <p className="self-center pl-6 uppercase text-[1.2rem]">Employees On<br />Worldwide </p>
+                    <p className="self-center pl-6 uppercase text-[1.1rem] font2">Employees On<br />Worldwide </p>
                 </div>
 
 
                 <div className="flex">
                     <h1 className="text-[4.4rem]">3469</h1>
-                    <p className="self-center pl-6 uppercase text-[1.2rem]">Projects Completed <br /> in 60 Countries</p>
+                    <p className="self-center pl-6 uppercase text-[1.1rem] font2">Projects Completed <br /> in 60 Countries</p>
                 </div>
 
             </div>
