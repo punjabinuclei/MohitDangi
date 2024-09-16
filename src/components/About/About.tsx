@@ -1,3 +1,4 @@
+import transition from "../../../transitions"
 
 const About = () => {
     return (
@@ -5,4 +6,4 @@ const About = () => {
     )
 }
 
-export default About
+export default transition(About)

@@ -17,6 +17,7 @@ const App = () => {
       <Navbar />
       <AnimatePresence mode='wait'>
         <Routes location={location} key={location.pathname}>
+          <Route path='/' element={<HomePage />} />
           <Route path='/HomePage' element={<HomePage />} />
           <Route path='/OurWork' element={<OurWork />} />
           <Route path='/Services' element={<Services />} />
