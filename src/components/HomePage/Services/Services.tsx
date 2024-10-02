@@ -7,7 +7,7 @@ import ServiceImg3 from "../../../assets/Service3.svg"
 const Services = () => {
     return (
         <Container>
-            <div className="py-10">
+            <div className="hidden py-10">
                 <img src={ServicesText} />
                 <h1 className="text-[4rem] tracking-tighter font-medium text-neutral-900 leading-[4rem] pt-6">We provide the <span className="italic">best solutions </span><br /> for your dream home</h1>
                 <div className="grid grid-cols-3 gap-8 justify-items-center py-20">

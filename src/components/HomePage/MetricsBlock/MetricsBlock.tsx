@@ -1,8 +1,9 @@
 import Container from "@/components/Common/Container/Container"
+import { clsx } from 'clsx';
 
 const Metrics = () => {
     return (
-        <Container>
+        <Container >
             <div className="grid grid-cols-3 gap-4 justify-items-center border-b-2 pb-16 border-[#D9D9D6] mb-20 text-[#2C2C2C]">
 
                 <div className="flex">

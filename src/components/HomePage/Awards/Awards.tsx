@@ -8,7 +8,7 @@ import AwardImage4 from "../../../assets/Award4.svg"
 
 const Awards = () => {
     return (
-        <div className="py-6 bg-[#2C2C2C] flex font2 font-thin text-[0.8rem]">
+        <div className=" hidden  py-6 bg-[#2C2C2C] md:flex font2 font-thin text-[0.8rem]">
             <Container>
                 <div className='flex'>
                     <div>
