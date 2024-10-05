@@ -8,13 +8,13 @@ import AwardImage4 from "../../../assets/Award4.svg"
 
 const Awards = () => {
     return (
-        <div className=" hidden  py-6 bg-[#2C2C2C] md:flex font2 font-thin text-[0.8rem]">
+        <div className="md:py-6 py-10 bg-[#2C2C2C] md:flex font2 font-thin text-[0.8rem]">
             <Container>
-                <div className='flex'>
+                <div className='md:flex'>
                     <div>
                         <img src={AwardsText} />
                     </div>
-                    <div className='flex justify-between px-6'>
+                    <div className='mt-4 md:mt-0 flex justify-between px-6'>
                         <div>
                             <img src={AwardImage1} />
                         </div>
@@ -24,7 +24,7 @@ const Awards = () => {
                         </div>
                     </div>
 
-                    <div className='flex justify-between px-6 '>
+                    <div className='mt-4 md:mt-0 flex justify-between px-6 '>
                         <div>
                             <img src={AwardImage2} />
                         </div>
@@ -34,7 +34,7 @@ const Awards = () => {
                         </div>
                     </div>
 
-                    <div className='flex justify-between px-6'>
+                    <div className='mt-4 md:mt-0 flex justify-between px-6'>
                         <div>
                             <img src={AwardImage3} />
                         </div>
@@ -44,7 +44,7 @@ const Awards = () => {
                         </div>
                     </div>
 
-                    <div className='flex justify-between px-6'>
+                    <div className='mt-4 md:mt-0 flex justify-between px-6'>
                         <div>
                             <img src={AwardImage4} />
                         </div>
