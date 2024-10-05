@@ -9,7 +9,7 @@ import Works3 from "../../../assets/Works3.svg"
 const RecentWorks = () => {
     return (
         <Container>
-            <div className="border-b-2 pb-16 border-[#D9D9D6] mb-10 text-center">
+            <div className="border-b-2 pb-16 border-[#D9D9D6] mb-10 text-center md:text-left">
                 <div>
                     <img src={RecentWorkText} />
                 </div>
