@@ -1,4 +1,4 @@
-Shubham Dangi - Architectural Portfolio
+# Architectural Portfolio
 A modern and visually stunning architectural portfolio website built using React, Vite, TypeScript, ShadCN, and TailwindCSS. This platform highlights architectural projects with a clean, interactive, and highly optimized user experience.
 
 Key Features:
